@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rashtao/npm-git-test/issues"
   },
-  "homepage": "https://github.com/rashtao/npm-git-test#readme"
+  "homepage": "https://github.com/rashtao/npm-git-test#readme",
+  "dependencies": {
+        "npm-git-test-dep": "git+ssh://git@github.com:rashtao/npm-git-test-dep.git"
+    }
 }
